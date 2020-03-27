@@ -16,11 +16,11 @@ public class _Function {
 	}
 	
 	//Functional way
-	static Function<Integer ,Integer> incrementFunction= 
+	public static Function<Integer ,Integer> incrementFunction= 
 			number->number+ 1;
 	
 	//klassieke manier
-	static int increment(int getal) {
+	public static int increment(int getal) {
 		return getal+1;
 	}
 	
